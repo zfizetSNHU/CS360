@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="337dp"
+            android:layout_height="237dp"
+            android:text="This app requires SMS permissions to alert when you've reached your goal weight"
+            android:textSize="34sp"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="51dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="123dp"
+            android:layout_height="59dp"
+            android:text="Allow"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="308dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
